@@ -1,0 +1,112 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+.card{
+  background-color: hsl(216, 50%, 16%);
+  width: 290px;
+  height: 520px;
+  padding: 20px;
+border-radius: 10px;
+margin-top: 100px;
+}
+
+.image-container{
+  position: relative;
+    width: 290px; 
+    text-align: center;
+}
+
+.equi{
+  width: 290px;
+border-radius: 10px;
+}
+
+.mata{
+  width: 290px;
+  height: 290px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity, background-color 0.3s ease-in-out;
+}
+
+.mata:hover {
+  opacity: 1;
+  background-color: hsla(178, 100%, 50%, .400);
+}
+p{
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+.font{
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.font:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.desc{
+  color:hsl(215, 51%, 70%) ;
+  margin-bottom: 5%;
+}
+
+.eth-desc{
+  display:inline-block;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+  margin-left: 5px;
+
+}
+.time{
+  display: inline-block; 
+  color:hsl(215, 51%, 70%) ;
+}
+.orasan{
+  margin-left: 75px;
+}
+.guhit{
+  border: 1px solid  hsl(215, 32%, 27%);
+  margin-bottom: 10px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  width: 10%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+span{
+  color: white;
+  cursor: pointer;
+  transition: background-color;
+}
+  
+.creator{
+  display:inline-block;
+  color:hsl(215, 51%, 70%) ;
+  margin-left: 15px;
+
+}
+  
+span:hover{
+  color: hsl(178, 100%, 50%);
+}
